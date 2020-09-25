@@ -50,7 +50,7 @@ def Banner():
 	print("      ", colored("~[", "red")+colored("HTPFL²", "green"), colored("-", "blue"), colored("Hack The Panel From Lucky", "green")+colored("]~", "red"))
 	print("               ", colored("~[", "red")+colored("CodeName", "magenta"),colored(":", "blue")+colored("Lucky", "green")+colored("]~", "red"))
 	print("              ", colored("~[", "red")+colored("Version", "magenta"), colored(":", "blue")+ colored("2.0 Beta", "red")+colored("]~", "red"))
-	print("          ", colored("~[", "red")+colored("Latest Update", "magenta"), colored(":")+colored("XX.XX.2020", "red")+colored("]~", "red"))
+	print("          ", colored("~[", "red")+colored("Latest Update", "magenta"), colored(":")+colored("25.09.2020", "red")+colored("]~", "red"))
 	vi = open("%/vip.txt", "r")
 	vip = vi.read()
 	if vip == "True":
