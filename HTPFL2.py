@@ -414,6 +414,8 @@ def act():
 		print("")
 		print(colored("Starting Update...", "green"))
 		print("")
+		sleep(2)
+		os.system("cd && rm -rf HTPFL2 && git clone https://github.com/Lucky1338/HTPFL2 && cd HTPFL2 && python HTPFL2.py")
 		sleep(0.1)
 		sys.exit(0)
 	elif Act == "2":
